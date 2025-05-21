@@ -11,13 +11,14 @@
   --clr-rgb-white: 225, 225, 225;
   --clr-black: #000000;
   --clr-rgb-black: 0, 0, 0;
-  --clr-black-shade: #1a1a1acc;
-  --clr--rgb-black-shade: 26, 26, 26;
+  --clr-black-shade: #1A1A1A;
+  --clr-rgb-black-shade: 26, 26, 26;
   --clr-titan-white: #f1ecff;
   --clr-dull-lavender: #a690e4;
   --clr-lavender-indigo: #8359f0;
   --clr-light-purple: #b3a0e9;
-  --input-height: 56px;    --clr-lighter-purple: #BBA4F3;
+  --input-height: 56px;    
+  --clr-lighter-purple: #BBA4F3;
 
   /* GRADIENT COLOR */
   --clr-primary-gradient: linear-gradient(

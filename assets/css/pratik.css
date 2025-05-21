@@ -5,7 +5,7 @@
 }
 .why-choose-us-detail-card{
     background-color: var(--clr-titan-white);
-    min-height: 232px;
+    padding: var(--space-lg);
 }
 /* WHY CHOOSE US ENDS */
 /* FEEDBACK STARTS */

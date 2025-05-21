@@ -38,6 +38,9 @@ html {
 .text-black-shade {
   color: var(--clr-black-shade);
 }
+.text-dull-lavender{
+    color: var(--clr-dull-lavender);
+}
 
 .text-light-purple {
     color: var(--clr-light-purple);
@@ -103,6 +106,7 @@ html {
 .radius-xl {
   border-radius: var(--radius-xl);
 }
+
 .radius-lg {
   border-radius: var(--radius-lg);
 }

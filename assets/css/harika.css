@@ -167,3 +167,19 @@
 .how-it-work-content-card.card-reverse {
   padding: 0 var(--space-xl) 0 0;
 }
+
+/* DOWNLOAD-APP SECTION START */
+.download-app-inner{
+    gap: 8rem;
+}
+.download-app-content{
+    width: 50%;
+    padding: 56px;
+}
+.download-app-subTitle{
+    color: rgba(var(--clr-rgb-white),0.5);
+}
+.download-app-imageWrapper {
+  max-width: 50%;
+}
+/* DOWNLOAD-APP SECTION END */
