@@ -1,3 +1,22 @@
 .footer-logo{
     max-width: 120px;
 }
+
+.footer-text{
+    color: rgba(var(--clr-rgb-white),50%);
+}
+
+.terms-link{
+    color: var(--clr-white);
+}
+
+.terms-link:hover{
+    color: rgba(var(--clr-rgb-white),50%);
+}
+
+.terms-link::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+}
+
