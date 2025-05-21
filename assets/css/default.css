@@ -40,8 +40,7 @@ html {
 }
 
 .text-primary-gradient {
-    color: #8359F0;
-    background-image: linear-gradient(180deg, #8359F0 13%, #AD8FF2 89%);
+    background-image: linear-gradient(180deg, var(--clr-lavender-indigo) 13%, var(--clr-dull-lavender) 89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,7 +62,7 @@ html {
 }
 
 .bg-primary-gradient {
-    background: var(--bg-primary-gradient);
+    background: var(--clr-primary-gradient);
 }
 
 .bg-black-shade {
@@ -75,20 +74,20 @@ html {
 }
 
 /* RADIUS */
-.radius-xl {
-    border-radius: var(--radius-xl);
-}
-
 .radius-lg {
     border-radius: var(--radius-lg);
+}
+
+.radius-md {
+    border-radius: var(--radius-md);
 }
 
 .radius-sm {
     border-radius: var(--radius-sm);
 }
 
-.radius-md {
-    border-radius: var(--radius-md);
+.radius-xs {
+    border-radius: var(--radius-xs);
 }
 
 .radius-inherit {
@@ -101,7 +100,6 @@ li {
     margin: 0;
     padding: 0;
 }
-
 
 /* FONT FAMILY */
 .font-primary {
@@ -169,17 +167,10 @@ p.xs,
 }
 
 .font-bordered {
-    -webkit-text-stroke: 2px #b3a0e9;
-    color: white;
-    text-shadow: 0 0 0 #b3a0e9, -1px -1px 0 #b3a0e9, 1px -1px 0 #b3a0e9,
-        -1px 1px 0 #b3a0e9, 1px 1px 0 #b3a0e9;
-    font-size: 72px;
-    line-height: 1.2;
-    font-weight: 500;
-    letter-spacing: 2%;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--clr-light-purple);
 }
-
-
 
 /* SIZE */
 .w-max-content {
@@ -453,11 +444,6 @@ input[type="number"] {
 /* SECTION TITLE */
 .primary-title {
     font-family: var(--font-primary);
-    color: #8359F0;
-    background-image: linear-gradient(180deg, #8359F0 13%, #AD8FF2 89%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 5.6rem;
     font-weight: 700;
     text-align: center;
