@@ -446,7 +446,6 @@ input[type="number"] {
     font-family: var(--font-primary);
     font-size: 5.6rem;
     font-weight: 700;
-    text-align: center;
     line-height: 115%;
 }
 
@@ -455,7 +454,6 @@ input[type="number"] {
     color: var(--clr-white);
     font-size: 5.6rem;
     font-weight: 700;
-    text-align: center;
     line-height: 115%;
 }
 
@@ -463,7 +461,6 @@ input[type="number"] {
     font-family: var(--font-primary);
     color: var(--clr-black-shade);
     font-weight: 500;
-    text-align: start;
     font-size: 24px;
     line-height: 150%;
 }
