@@ -39,6 +39,10 @@ html {
     color: var(--clr-black-shade);
 }
 
+.text-light-purple {
+    color: var(--clr-light-purple);
+}
+
 .text-primary-gradient {
     background-image: linear-gradient(180deg, var(--clr-lavender-indigo) 13%, var(--clr-dull-lavender) 89%);
     background-clip: text;
@@ -469,4 +473,8 @@ input[type="number"] {
     background-color: rgba(var(--clr-rgb-white), 6%);
     backdrop-filter: blur(40px);
     box-shadow: -2px -2px 8px 0px rgba(var(--clr-rgb-white), 33%) inset;
+}
+
+.logo-wrap {
+    max-width: 100px;
 }
