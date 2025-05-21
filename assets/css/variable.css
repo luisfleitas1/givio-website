@@ -11,7 +11,7 @@
   --clr-rgb-white: 225, 225, 225;
   --clr-black: #000000;
   --clr-rgb-black: 0, 0, 0;
-  --clr-black-shade: #1a1a1a;
+  --clr-black-shade: #1a1a1acc;
   --clr--rgb-black-shade: 26, 26, 26;
   --clr-titan-white: #f1ecff;
   --clr-dull-lavender: #a690e4;
@@ -25,13 +25,14 @@
     #8459ef 12.24%,
     #ad90f3 89.4%
   );
-
+  --clr-mirage: #1a1a1a80;
   /* SPACE */
   --space-xl: 6.4rem;
   --space-lg: 5.6rem;
   --space-md: 3.2rem;
   --space-sm: 3rem;
   /* RADIUS */
+  --radius-xl: 6.4rem;
   --radius-lg: 3.2rem;
   --radius-md: 2.4rem;
   --radius-sm: 1.6rem;

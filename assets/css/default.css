@@ -88,7 +88,9 @@ html {
 .bg-primary-gradient {
   background: var(--clr-primary-gradient);
 }
-
+.text-white-70 {
+  color: rgba(var(--clr-rgb-white), 0.7);
+}
 .bg-black-shade {
   background-color: var(--clr-black-shade);
 }
@@ -98,6 +100,9 @@ html {
 }
 
 /* RADIUS */
+.radius-xl {
+  border-radius: var(--radius-xl);
+}
 .radius-lg {
   border-radius: var(--radius-lg);
 }
@@ -349,6 +354,10 @@ a:hover,
   padding-top: var(--space-xl);
   padding-bottom: var(--space-xl);
 }
+.section-xl-px {
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+}
 
 .section-xl-pt {
   padding-top: var(--space-xl);
@@ -430,6 +439,10 @@ a:hover,
   padding-top: var(--space-sm);
   padding-bottom: var(--space-sm);
 }
+.section-sm-px {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+}
 
 .section-sm-pt {
   padding-top: var(--space-sm);
@@ -486,32 +499,31 @@ input[type="number"] {
   font-weight: 500;
   font-size: 24px;
   line-height: 150%;
-    font-family: var(--font-primary);
-    font-size: 5.6rem;
-    font-weight: 700;
-    line-height: 115%;
 }
 
 .secondary-title {
-    font-family: var(--font-primary);
-    color: var(--clr-white);
-    font-size: 5.6rem;
-    font-weight: 700;
-    line-height: 115%;
+  font-family: var(--font-primary);
+  color: var(--clr-white);
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 115%;
 }
 
 .paragraph-sm-text {
-    font-family: var(--font-primary);
-    color: var(--clr-black-shade);
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 150%;
+  font-family: var(--font-primary);
+  color: var(--clr-black-shade);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
 }
 
 .white-gradient-card {
   background-color: rgba(var(--clr-rgb-white), 6%);
   backdrop-filter: blur(40px);
   box-shadow: -2px -2px 8px 0px rgba(var(--clr-rgb-white), 33%) inset;
+}
+.title-sub-text {
+  color: var(--clr-mirage);
 }
 
 .logo-wrap {
@@ -626,4 +638,10 @@ input[type="number"] {
   border-color: var(--clr-black-shade);
 }
 /*\ BUTTON STYLE END */
- 
+
+/* CARD STYLING START */
+.inner-shadow-card {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.2) inset;
+  backdrop-filter: blur(40px);
+}
+/* CARD STYLING END */
