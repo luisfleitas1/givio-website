@@ -54,6 +54,22 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.text-white-50{
+  color: rgba(var(--clr-rgb-white), 50%);
+}
+
+.text-black-shade-50{
+  color: rgba(var(--clr--rgb-black-shade), 50%);
+}
+
+.text-black-shade-70{
+  color: rgba(var(--clr--rgb-black-shade), 70%);
+}
+
+.text-dull-lavender{
+  color: var(--clr-dull-lavender);
+}
+  
 /* TEXT COLORS END */
 
 .text-justify {
@@ -451,14 +467,8 @@ input[type="number"] {
 /* SECTION TITLE */
 .primary-title {
   font-family: var(--font-primary);
-  color: #8359f0;
-  background-image: linear-gradient(180deg, #8359f0 13%, #ad8ff2 89%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -467,7 +477,6 @@ input[type="number"] {
   color: var(--clr-white);
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -475,7 +484,6 @@ input[type="number"] {
   font-family: var(--font-primary);
   color: var(--clr-black-shade);
   font-weight: 500;
-  text-align: start;
   font-size: 24px;
   line-height: 150%;
     font-family: var(--font-primary);
