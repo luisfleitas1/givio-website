@@ -50,6 +50,22 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.text-white-50{
+  color: rgba(var(--clr-rgb-white), 50%);
+}
+
+.text-black-shade-50{
+  color: rgba(var(--clr--rgb-black-shade), 50%);
+}
+
+.text-black-shade-70{
+  color: rgba(var(--clr--rgb-black-shade), 70%);
+}
+
+.text-dull-lavender{
+  color: var(--clr-dull-lavender);
+}
+  
 /* TEXT COLORS END */
 
 .text-justify {
