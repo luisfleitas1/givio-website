@@ -39,6 +39,10 @@ html {
   color: var(--clr-black-shade);
 }
 
+.text-light-purple {
+    color: var(--clr-light-purple);
+}
+
 .text-primary-gradient {
   background-image: linear-gradient(
     180deg,
@@ -463,14 +467,8 @@ input[type="number"] {
 /* SECTION TITLE */
 .primary-title {
   font-family: var(--font-primary);
-  color: #8359f0;
-  background-image: linear-gradient(180deg, #8359f0 13%, #ad8ff2 89%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -479,7 +477,6 @@ input[type="number"] {
   color: var(--clr-white);
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -487,7 +484,6 @@ input[type="number"] {
   font-family: var(--font-primary);
   color: var(--clr-black-shade);
   font-weight: 500;
-  text-align: start;
   font-size: 24px;
   line-height: 150%;
     font-family: var(--font-primary);
@@ -516,6 +512,10 @@ input[type="number"] {
   background-color: rgba(var(--clr-rgb-white), 6%);
   backdrop-filter: blur(40px);
   box-shadow: -2px -2px 8px 0px rgba(var(--clr-rgb-white), 33%) inset;
+}
+
+.logo-wrap {
+    max-width: 100px;
 }
 
 /* INPUT CSS  */

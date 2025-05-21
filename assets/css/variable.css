@@ -17,7 +17,8 @@
   --clr-dull-lavender: #a690e4;
   --clr-lavender-indigo: #8359f0;
   --clr-light-purple: #b3a0e9;
-  --input-height: 56px;
+  --input-height: 56px;    --clr-lighter-purple: #BBA4F3;
+
   /* GRADIENT COLOR */
   --clr-primary-gradient: linear-gradient(
     162.04deg,

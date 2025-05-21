@@ -12,11 +12,11 @@
 .feedback-card{
     padding: 4.5rem;
     box-shadow: 0px 4px 16px 0px rgba(var(--clr-rgb-black),4%);
+    min-height: 446px;
 }
 .feddback-img{
     width: 8rem;
     min-width: 50px;
-    min-height: 446px;
 }
 
 .star-icon{
