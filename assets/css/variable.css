@@ -14,9 +14,9 @@
     --clr-titan-white: #F1ECFF;
     --clr-dull-lavender: #A690E4;
     --clr-lavender-indigo: #8359F0;
+    --clr-light-purple: #B3A0E9;
     /* gradient COLOR */
-    --clr-primary-gradient:(162.04deg, #8459EF 12.24%, #AD90F3 89.4%);
-
+    --clr-primary-gradient: linear-gradient(162.04deg, var(--clr-lavender-indigo) 12.24%, var(--clr-dull-lavender) 89.4%);
 
     /* SPACE */
     --space-xl: 6.4rem;
@@ -25,8 +25,9 @@
     --space-sm: 3rem;
     /* RADIUS */
     --radius-lg: 3.2rem;
-    --radius-md: 1.6rem;
-    --radius-sm: 1.4rem;
+    --radius-md: 2.4rem;
+    --radius-sm: 1.6rem;
+    --radius-xs: 1.4rem;
     /* TRANSITION */
     --transition-smooth: all 0.3s;
     /* CONTAINER */
