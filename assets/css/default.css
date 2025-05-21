@@ -39,6 +39,10 @@ html {
   color: var(--clr-black-shade);
 }
 
+.text-light-purple {
+    color: var(--clr-light-purple);
+}
+
 .text-primary-gradient {
   background-image: linear-gradient(
     180deg,
@@ -50,6 +54,22 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.text-white-50{
+  color: rgba(var(--clr-rgb-white), 50%);
+}
+
+.text-black-shade-50{
+  color: rgba(var(--clr--rgb-black-shade), 50%);
+}
+
+.text-black-shade-70{
+  color: rgba(var(--clr--rgb-black-shade), 70%);
+}
+
+.text-dull-lavender{
+  color: var(--clr-dull-lavender);
+}
+  
 /* TEXT COLORS END */
 
 .text-justify {
@@ -460,14 +480,8 @@ input[type="number"] {
 /* SECTION TITLE */
 .primary-title {
   font-family: var(--font-primary);
-  color: #8359f0;
-  background-image: linear-gradient(180deg, #8359f0 13%, #ad8ff2 89%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -476,7 +490,6 @@ input[type="number"] {
   color: var(--clr-white);
   font-size: 5.6rem;
   font-weight: 700;
-  text-align: center;
   line-height: 115%;
 }
 
@@ -512,6 +525,11 @@ input[type="number"] {
 .title-sub-text {
   color: var(--clr-mirage);
 }
+
+.logo-wrap {
+    max-width: 100px;
+}
+
 /* INPUT CSS  */
 .input {
   height: var(--input-height);
