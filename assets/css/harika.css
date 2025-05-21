@@ -1,3 +1,185 @@
+/* HEADER SECTION START */
+.header-section {
+  min-height: var(--header-height);
+  background-color: transparent;
+  z-index: 10;
+  transition: var(--transition-smooth);
+}
+
+.header-section.header-scroll {
+  background-color: var(--clr-lavender-indigo);
+  box-shadow: 0 4px 12px 0 rgba(var(--clr-rgb-black), 0.2);
+}
+
+.header-nav-list {
+  gap: 48px;
+}
+
+.header-link {
+  color: rgba(var(--clr-rgb-white), 0.5);
+  line-height: 1.33;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--clr-white);
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-smooth);
+}
+
+.header-link.active::after,
+.header-link:hover::after {
+  width: 80px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-link:hover,
+.header-link.active {
+  color: var(--clr-white);
+}
+
 /* HERO SECTION START */
 
-.hero-section {}
+.hero-section {
+  min-height: calc(100vh - var(--header-height) - var(--space-sm));
+  background-position: left center;
+  padding-top: calc(var(--header-height) + var(--space-sm));
+  z-index: 2;
+}
+
+.hero-section::after,
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero-section::after {
+  background-image: url("../images/covers/wave-1.png");
+}
+
+.hero-section::before {
+  background-image: url("../images/covers/wave-2.png");
+  bottom: -25px;
+  z-index: 1;
+}
+
+.hero-content-wrap {
+  max-width: 700px;
+  padding-bottom: var(--space-sm);
+}
+
+.hero-content-wrap p {
+  color: rgba(var(--clr-rgb-white), 0.7);
+}
+
+.hero-apple-store-btn {
+  margin-top: 8rem;
+}
+
+.hero-apple-store-btn:hover {
+  opacity: 0.85;
+}
+
+.hero-img-wrap {
+  max-width: 800px;
+  z-index: 3;
+}
+
+.hero-img-wrap::after,
+.hero-img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-img-wrap::after {
+  background-color: var(--clr-lighter-purple);
+  border-radius: 50%;
+  filter: blur(100px);
+  width: 80%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-img-wrap::before {
+  background-image: url("../images/covers/stars.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 80%;
+  z-index: 2;
+}
+
+/* HOW IT WORKS START */
+.how-it-work-img-wrap {
+  padding: 4rem 4rem 0;
+  border-radius: var(--space-xl);
+  background-color: var(--clr-titan-white);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.how-it-work-img-wrap::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  background-color: var(--clr-lighter-purple);
+  border-radius: 50%;
+  filter: blur(80px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.how-it-work-img {
+  max-width: 430px;
+}
+
+.how-it-work-content-card {
+  padding: 0 0 0 var(--space-xl);
+}
+
+.how-it-work-content-card h3 {
+  font-size: 4rem;
+}
+
+.how-it-work-content-card.card-reverse {
+  padding: 0 var(--space-xl) 0 0;
+}
+
+/* DOWNLOAD-APP SECTION START */
+.download-app-inner{
+    gap: 8rem;
+}
+.download-app-content{
+    width: 50%;
+    padding: 56px;
+}
+.download-app-subTitle{
+    color: rgba(var(--clr-rgb-white),0.5);
+}
+.download-app-imageWrapper {
+  max-width: 50%;
+}
+/* DOWNLOAD-APP SECTION END */

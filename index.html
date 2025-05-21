@@ -14,49 +14,894 @@
 			rel="stylesheet"
 			href="./assets/css/style.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="./assets/css/harika.css"
+		/>
 		<title>Home | Givio</title>
+
+		<link
+			rel="icon"
+			type="image/png"
+			href="./assets/images/favicon/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="./assets/images/favicon/favicon.svg"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./assets/images/favicon/favicon.ico"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/images/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="manifest"
+			href="./site.webmanifest"
+		/>
 	</head>
 	<body>
-		<header class="header-section">
+		<header
+			class="header-section position-fixed w-100 top-0 d-flex justify-content-center align-items-center"
+		>
 			<div class="container">
 				<div class="d-flex justify-content-between align-items-center">
-					<a href="">
+					<a
+						href="index.html"
+						class="logo-wrap w-100"
+					>
 						<img
-							src=""
+							src="./assets/images/logo/logo.svg"
 							alt="Givio"
 							class="w-100 h-100"
 						/>
 					</a>
 					<nav>
-						<ul>
-							<li><a href="">Home</a></li>
-							<li><a href="">About us</a></li>
-							<li><a href="">FAQ’s</a></li>
-							<li><a href="">Contact us</a></li>
+						<ul class="header-nav-list d-flex align-items-center">
+							<li>
+								<a
+									href="index.html"
+									class="header-link h5 mb-0 fw-bold active"
+									>Home</a
+								>
+							</li>
+							<li>
+								<a
+									href="about-us.html"
+									class="header-link h5 mb-0 fw-bold"
+									>About us</a
+								>
+							</li>
+							<li>
+								<a
+									href="faq.html"
+									class="header-link h5 mb-0 fw-bold"
+									>FAQ’s</a
+								>
+							</li>
+							<li>
+								<a
+									href="contact-us.html"
+									class="header-link h5 mb-0 fw-bold"
+									>Contact us</a
+								>
+							</li>
 						</ul>
 					</nav>
-					<div>
-						<a href="">Login</a>
-						<a href="">Login</a>
+					<div class="d-flex align-items-center gap-5">
+						<a
+							href=""
+							class="h5 mb-0 fw-bold text-white"
+							>Login</a
+						>
+						<a
+							href=""
+							class="h5 mb-0 fw-bold text-white"
+							>Sign up</a
+						>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section class="hero-section bg-primary-gradient">
-			<div class="container">
-				<div class="row">
+		<section
+			class="hero-section bg-primary-gradient overflow-hidden position-relative"
+		>
+			<div class="container min-h-inherit">
+				<div class="row min-h-inherit">
 					<div class="col-6">
-						<div>
-							<h1 class="secondary-title fw-bolder">
+						<div class="hero-content-wrap section-lg-pt">
+							<h1 class="secondary-title fw-bolder mb-4">
 								<span class="d-block">Gift smarter</span>
-								<span class="d-block">with AI-powered</span>
-								<span class="d-block font-secondary">recommendations.</span>
+								<span class="d-inline-flex align-items-center gap-3"
+									>with AI-powered
+									<img
+										src="./assets/images/icons/min-robot.svg"
+										alt="Mini Robot"
+									/>
+								</span>
+								<span class="d-block">recommendations.</span>
 							</h1>
+							<p class="h4 mb-0 fw-normal">
+								Givio is a smart gift recommendation platform that helps you
+								find the perfect gift for any occasion. Whether it's a birthday,
+								anniversary, holiday, or a special moment, Givio curates
+								personalized gift suggestions based on preferences, trends, and
+								unique interests—making gifting effortless and meaningful.
+							</p>
+							<a
+								href=""
+								class="hero-apple-store-btn d-inline-block"
+							>
+								<img
+									src="./assets/images/icons/apple-store-btn.svg"
+									alt="Apple Store"
+								/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 align-self-end">
+						<div class="hero-img-wrap ms-auto position-relative">
+							<img
+								src="./assets/images/covers/hero-phone.png"
+								alt="Phone in Hand"
+								class="w-100 h-100 position-relative z-2"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="hero-dots-bg position-absolute w-100 h-100 start-0 top-0">
+				<img
+					src="./assets/images/background/bg-dots.png"
+					alt="Dots"
+					class="w-100 h-100 z-n1"
+				/>
+			</div>
+		</section>
+		<section class="section-lg-py">
+			<div class="container">
+				<div class="text-center section-lg-mb">
+					<h2 class="primary-title text-primary-gradient mb-3">
+						How it Works?
+					</h2>
+					<p class="h4 mb-0 fw-normal lh-base opacity-50">
+						Find, personalize, and gift effortlessly.
+					</p>
+				</div>
+				<div class="row align-items-center section-sm-mb">
+					<div class="col-4">
+						<div class="how-it-work-img-wrap position-relative">
+							<div class="how-it-work-img w-100">
+								<img
+									src="./assets/images/covers/how-it-works-phone-1.png"
+									alt="Phone"
+									class="w-100 h-100"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="col-8">
+						<div class="how-it-work-content-card">
+							<span class="font-bordered font-secondary h1 d-inline-block mb-2"
+								>01</span
+							>
+							<h3 class="fw-bold mb-5">Tell Us About the Occasion</h3>
+							<ul class="how-it-work-list d-flex flex-column gap-4">
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Select the relationship (e.g., Friend, Parent, Partner,
+										Colleague).
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Choose their interests (e.g., Tech, Books, Fashion, Fitness,
+										DIY).
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Define the purpose (e.g., Birthday, Anniversary, Graduation,
+										Just Because).
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center section-sm-mb">
+					<div class="col-4 order-1">
+						<div class="how-it-work-img-wrap position-relative">
+							<div class="how-it-work-img w-100">
+								<img
+									src="./assets/images/covers/how-it-works-phone-2.png"
+									alt="Phone"
+									class="w-100 h-100"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="col-8">
+						<div class="how-it-work-content-card card-reverse">
+							<span class="font-bordered font-secondary h1 d-inline-block mb-2"
+								>02</span
+							>
+							<h3 class="fw-bold mb-5">Get AI-Powered Gift Suggestions</h3>
+							<ul class="how-it-work-list d-flex flex-column gap-4">
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Our AI analyzes your inputs and curates unique, thoughtful
+										gifts instantly.
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Explore a personalized list of gifts with details & direct
+										purchase links.
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Easily filter by budget, category, or brand preference.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-4">
+						<div class="how-it-work-img-wrap position-relative">
+							<div class="how-it-work-img w-100">
+								<img
+									src="./assets/images/covers/how-it-works-phone-3.png"
+									alt="Phone"
+									class="w-100 h-100"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="col-8">
+						<div class="how-it-work-content-card">
+							<span class="font-bordered font-secondary h1 d-inline-block mb-2"
+								>03</span
+							>
+							<h3 class="fw-bold mb-5">
+								Set a Reminder & Make Gifting Effortless
+							</h3>
+							<ul class="how-it-work-list d-flex flex-column gap-4">
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Add the event date to get timely reminders—never miss an
+										important moment!
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Save favorite gift ideas for later.
+									</p>
+								</li>
+								<li class="d-flex align-items-start gap-3">
+									<span
+										data-icon="circleStar"
+										class="flex-center text-light-purple"
+									></span>
+									<p class="paragraph-sm-text lh-1">
+										Buy in a few clicks & make someone’s day! 🎊
+									</p>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+    <!-- DOWNLOAD-APP SECTION START  -->
+    <section class="download-app bg-primary-gradient section-lg-pt">
+      <div class="container">
+        <div class="download-app-wrapper">
+          <h2 class="primary-title text-white text-center mb-3">
+            Download The App
+          </h2>
+          <p class="mb-0 h4 download-app-subTitle text-center">
+            Find, personalize, and gift effortlessly.
+          </p>
+          <div class="download-app-inner section-lg-pt d-flex align-items-end">
+            <div
+              class="download-app-content align-self-center white-gradient-card radius-xl"
+            >
+              <div>
+                <h6 class="paragraph-sm-text text-white mb-2">
+                  Get the Givio App Instantly!
+                </h6>
+                <p class="mb-0 h4 download-app-subTitle mb-5">
+                  Enter your phone number to receive a text with the download
+                  link.
+                </p>
+                <div
+                  class="transparent-input input d-flex gap-3 align-items-center"
+                >
+                  <span data-icon="iconCall"></span>
+                  <input type="text" name="input" placeholder="Enter value" />
+                </div>
+                <button class="custom-btn dark-btn w-100 mt-3">Submit</button>
+              </div>
+              <div class="d-flex mt-5 justify-content-between align-items-center">
+                <div>
+                  <h2 class="text-white font-secondary mb-1">4.8</h2>
+                  <p class="download-app-subTitle mb-0">Rating on App Store</p>
+                </div>
+                <div>
+                  <h2 class="text-white font-secondary mb-1">100K+</h2>
+                  <p class="download-app-subTitle mb-0">Happy Users</p>
+                </div>
+                <div>
+                  <h2 class="text-white font-secondary mb-1">1500+</h2>
+                  <p class="download-app-subTitle mb-0">Positive Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div class="download-app-imageWrapper">
+              <img
+                src="./assets/images/covers/download-app-phones.png"
+                alt="Download App"
+                class="img-fluid w-100 object-fit-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DOWNLOAD-APP SECTION END  -->
+     <!-- WHY CHOOSE US STARTS -->
+     <section class="section-lg-py">
+      <div class="container">
+        <h2 class="primary-title mb-4 text-primary-gradient text-center">Why Choose Us?</h2>
+        <h4 class="text-black-shade-70 fw-normal text-center mb-0">
+          Smart, personalized, and effortless gifting.
+        </h4>
+        <div class="d-grid why-choose-us-card-grid-wrapper mt-5 pt-2">
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Gift Suggestions</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              Get tailored recommendations for any occasion.
+            </h3>
+          </div>
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Save Time & Effort</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              No more endless searching-find the perfect gift instantly.
+            </h3>
+          </div>
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Gifts for Everyone</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              From family to friends, find something for everyone.
+            </h3>
+          </div>
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Smart AI-Powered Picks</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              Our intelligent system curates the best options for you.
+            </h3>
+          </div>
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Occasion-Based</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              Birthdays, anniversaries, holidays-Givio covered.
+            </h3>
+          </div>
+          <div
+            class="why-choose-us-detail-card gap-4 flex-center flex-column radius-xl"
+          >
+            <h2 class="fw-bold text-center">Seamless & Secure</h2>
+            <h3 class="text-black-shade-70 fw-normal text-center">
+              Browse with confidence and ease.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WHY CHOOSE US ENDS -->
+    <!-- FEEDBACK STARTS -->
+    <section class="section-lg-py bg-primary-gradient">
+      <div class="container">
+        <h2 class="secondary-title text-center mb-3">What Our Happy Users Says!</h2>
+        <h4 class="text-white-50 text-center mb-0 fw-normal">
+          Customer experiences and feedback shared.
+        </h4>
+        <div class="feedback-swiper-wrapper mt-5">
+          <div class="swiper feedbackSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="feedback-card d-flex flex-column gap-4 radius-xl bg-white"
+                >
+                  <div
+                    class="feedback-card-header d-flex align-items-start justify-content-between"
+                  >
+                    <div class="d-flex flex-shrink-0 align-items-center gap-4">
+                      <div class="feddback-img ratio ratio-1x1 rounded-circle">
+                        <img
+                          class="radiun-inherit"
+                          src="./assets/images//covers/feedback-one.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3 class="fw-normal mb-2">Guy Hawkins</h3>
+                        <h5 class="fw-normal text-black-shade-50 mb-0">
+                          @guyhawkins
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="quote-icon text-dull-lavender"
+                    data-icon="iconDoubleQuote"
+                  ></div>
+                  <p class="text-dull-lavender fw-medium mb-0 h4 lh-16">
+                    "Givio has completely transformed the way I give gifts! I
+                    used to struggle with finding the perfect present for my
+                    friends and family, but now, with Givio’s personalized
+                    recommendations, I always find something meaningful. The app
+                    understands preferences so well that every gift feels truly
+                    special. It has saved me so much time and effort-I can’t
+                    imagine shopping without it!"
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="feedback-card d-flex flex-column gap-4 radius-xl bg-white"
+                >
+                  <div
+                    class="feedback-card-header d-flex align-items-start justify-content-between"
+                  >
+                    <div class="d-flex flex-shrink-0 align-items-center gap-4">
+                      <div class="feddback-img ratio ratio-1x1 rounded-circle">
+                        <img
+                          class="radiun-inherit"
+                          src="./assets/images//covers/feedback-two.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3 class="fw-normal mb-2">Emily Johnson</h3>
+                        <h5 class="fw-normal text-black-shade-50 mb-0">
+                          @emily johnson
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="quote-icon text-dull-lavender"
+                    data-icon="iconDoubleQuote"
+                  ></div>
+                  <p class="text-dull-lavender fw-medium mb-0 h4 lh-16">
+                    I was skeptical at first, but Givio has exceeded all my
+                    expectations. I’ve always found gift shopping stressful,
+                    especially for those who seem to have everything. But
+                    Givio’s smart suggestions make it so easy! The
+                    recommendations are spot-on, and I love how it tailors
+                    options based on the recipient’s interests. It’s now my
+                    go-to for every birthday, holiday, and special occasion.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="feedback-card d-flex flex-column gap-4 radius-xl bg-white"
+                >
+                  <div
+                    class="feedback-card-header d-flex align-items-start justify-content-between"
+                  >
+                    <div class="d-flex flex-shrink-0 align-items-center gap-4">
+                      <div class="feddback-img ratio ratio-1x1 rounded-circle">
+                        <img
+                          class="radiun-inherit"
+                          src="./assets/images//covers/feedback-one.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3 class="fw-normal mb-2">Guy Hawkins</h3>
+                        <h5 class="fw-normal text-black-shade-50 mb-0">
+                          @guyhawkins
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="quote-icon text-dull-lavender"
+                    data-icon="iconDoubleQuote"
+                  ></div>
+                  <p class="text-dull-lavender fw-medium mb-0 h4 lh-16">
+                    "Givio has completely transformed the way I give gifts! I
+                    used to struggle with finding the perfect present for my
+                    friends and family, but now, with Givio’s personalized
+                    recommendations, I always find something meaningful. The app
+                    understands preferences so well that every gift feels truly
+                    special. It has saved me so much time and effort-I can’t
+                    imagine shopping without it!"
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="feedback-card d-flex flex-column gap-4 radius-xl bg-white"
+                >
+                  <div
+                    class="feedback-card-header d-flex align-items-start justify-content-between"
+                  >
+                    <div class="d-flex flex-shrink-0 align-items-center gap-4">
+                      <div class="feddback-img ratio ratio-1x1 rounded-circle">
+                        <img
+                          class="radiun-inherit"
+                          src="./assets/images//covers/feedback-two.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3 class="fw-normal mb-2">Emily Johnson</h3>
+                        <h5 class="fw-normal text-black-shade-50 mb-0">
+                          @emily johnson
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                      <div class="star-icon ratio ratio-1x1">
+                        <img
+                          src="./assets//images/icons/star.svg"
+                          alt="star-icon"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="quote-icon text-dull-lavender"
+                    data-icon="iconDoubleQuote"
+                  ></div>
+                  <p class="text-dull-lavender fw-medium mb-0 h4 lh-16">
+                    I was skeptical at first, but Givio has exceeded all my
+                    expectations. I’ve always found gift shopping stressful,
+                    especially for those who seem to have everything. But
+                    Givio’s smart suggestions make it so easy! The
+                    recommendations are spot-on, and I love how it tailors
+                    options based on the recipient’s interests. It’s now my
+                    go-to for every birthday, holiday, and special occasion.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center gap-4 mt-5"
+          >
+            <button
+              class="prev-button swiper-nav-button rounded-circle flex-center"
+            >
+              <span class="flex-center" data-icon="iconLeftArrow"></span>
+            </button>
+            <button
+              class="next-button swiper-nav-button rounded-circle flex-center"
+            >
+              <span class="flex-center" data-icon="iconRightArrow"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEEDBACK ENDS -->
+    <!-- FOOTER STARTS -->
+    <footer class="bg-black-shade">
+      <div class="container">
+        <div class="footer-content-info section-lg-py">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <a href="javascript:void(0)" class="footer-logo w-100 d-flex">
+                <img
+                  class="w-100"
+                  src="./assets/images/logo/logo.svg"
+                  alt="logo"
+                />
+              </a>
+              <p class="footer-text font-primary mt-5 mb-0">
+                Givio helps you find the perfect gift for any occasion with
+                smart, personalized recommendations. Make gifting effortless and
+                meaningful!
+              </p>
+              <div class="d-flex align-items-center gap-4 mt-5">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconFacebook"
+                  ></span
+                ></a>
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconGlobal"
+                  ></span
+                ></a>
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconX"
+                  ></span
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconInstagram"
+                  ></span
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+              <h4 class="text-white fw-bold mb-0">Company</h4>
+              <div class="mt-5 d-flex flex-column gap-3 footer-link-wrapper">
+                <a href="javascript:void(0)" class="fw-medium p">Home</a>
+                <a href="javascript:void(0)" class="fw-medium p">About us</a>
+                <a href="javascript:void(0)" class="fw-medium p">FAQ</a>
+                <a href="javascript:void(0)" class="fw-medium p">Contact us</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-2">
+              <h4 class="text-white fw-bold mb-0">Contact</h4>
+              <div class="mt-5 d-flex flex-column gap-3 footer-link-wrapper">
+                <a
+                  href="tel:+1 (800) 123-4567"
+                  class="d-flex align-center gap-4 fw-medium p"
+                  ><span data-icon="iconCall"></span>+1 (800) 123-4567</a
+                >
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  class="d-flex align-center gap-4 fw-medium p"
+                  ><span data-icon="iconGlobal"></span>www.givio.com</a
+                >
+                <a
+                  href="mailto:givio@gmail.com"
+                  class="d-flex align-center gap-4 fw-medium p"
+                  ><span data-icon="iconMail"></span>givio@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-4">
+              <div class="mt-5 mt-lg-0">
+                <h4 class="text-white fw-bold mb-0">
+                  Get the latest information
+                </h4>
+                <div class="mt-4 mt-xl-5">
+                  <div
+                    class="dark-input input d-flex gap-3 align-items-center position-relative overflow-hidden"
+                  >
+                    <input type="text" name="input" placeholder="Email Adderss" />
+                    <button
+                      class="custom-btn purple-gradient-btn email-submit-btn position-absolute end-0"
+                    >
+                      <span data-icon="iconTelegram"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-content">
+        <div class="container">
+          <div class="copyright-content-info py-4">
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="footer-text mb-0 d-flex align-items-center gap-2">
+                2025 Givio. <span data-icon="iconCopyright"></span> All Rights
+                Reserved
+              </h6>
+              <div class="terms-and-conditions">
+                <ul class="d-flex align-items-center gap-2">
+                  <li class="terms-link position-relative p">
+                    <a
+                      href="javascript:void(0)"
+                      class="text-decoration-underline"
+                      >User Terms & Conditions</a
+                    >
+                  </li>
+                  <li class="terms-link position-relative p">
+                    <a
+                      href="javascript:void(0)"
+                      class="text-decoration-underline"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER ENDS -->
 		<script src="./assets/js/swiper-bundle.min.js"></script>
 		<script src="./assets/js/bootstrap.bundle.min.js"></script>
 		<script src="./assets/js/icons.js"></script>
