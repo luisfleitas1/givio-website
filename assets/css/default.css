@@ -869,7 +869,7 @@ textarea.textarea {
 }
 .download-app-content {
   width: 50%;
-  padding: 4.5rem;
+  padding: var(--space-md);
 }
 .download-app-subTitle {
   color: rgba(var(--clr-rgb-white), 0.5);

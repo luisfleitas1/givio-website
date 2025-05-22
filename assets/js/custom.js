@@ -29,7 +29,7 @@ var swiper = new Swiper(".feedbackSwiper", {
         slidesPerView: 1,
         spaceBetween: 15
       },
-      767: {
+      992: {
         slidesPerView: 2,
         spaceBetween: 20
       }
