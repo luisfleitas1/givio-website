@@ -632,7 +632,7 @@ textarea.textarea {
   background-position: 100% 0;
 }
 .dark-btn {
-  background-color: var(--clr-black-shade);
+  background-color: var(--clr-black-shade); 
 }
 .dark-btn:hover {
   background-color: rgba(var(--clr-rgb-black-shade), 0.8);

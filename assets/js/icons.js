@@ -66,8 +66,11 @@
       `,
       circleStar: `<svg width="25" height="25" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M29.3334 16C29.3334 23.3638 23.3639 29.3333 16.0001 29.3333C8.63628 29.3333 2.66675 23.3638 2.66675 16C2.66675 8.63616 8.63628 2.66663 16.0001 2.66663C23.3639 2.66663 29.3334 8.63616 29.3334 16ZM21.3739 11.9595C21.7644 12.35 21.7644 12.9832 21.3739 13.3737L14.7072 20.0404C14.3167 20.4309 13.6835 20.4309 13.293 20.0404L10.6263 17.3737C10.2358 16.9832 10.2358 16.35 10.6263 15.9595C11.0168 15.569 11.65 15.569 12.0405 15.9595L14.0001 17.9191L16.9799 14.9393L19.9596 11.9595C20.3502 11.569 20.9833 11.569 21.3739 11.9595Z" fill="currentColor"/>
+      </svg>`,
+      iconLogin : `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M4 15H6V20H18V4H6V9H4V3C4 2.44772 4.44772 2 5 2H19C19.5523 2 20 2.44772 20 3V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V15ZM10 11V8L15 12L10 16V13H2V11H10Z"></path></svg>` ,
+      iconRegister : `<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
       </svg>`
-
     };
     const allIconTag = document.querySelectorAll("[data-icon]");
     allIconTag.forEach((Element) => {

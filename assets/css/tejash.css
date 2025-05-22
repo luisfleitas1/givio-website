@@ -1,5 +1,5 @@
 .faq-section {
-  --image-size: 440px;
+  --image-size: 44rem;
 }
 .faq-section-inner {
   gap: 8.7rem;
@@ -22,7 +22,7 @@
   gap: 24px;
 }
 .accordion-wrapper .accordion-item {
-  padding: 28px;
+  padding: 2.8rem;
   border-radius: var(--radius-md);
   border: 1.5px solid #ebebeb;
 }
@@ -63,4 +63,19 @@
   background-color: var(--clr-dull-lavender);
 }
 
-
+/* FAQ RESPONSIVE START */
+@media (max-width: 1279px) {
+  .faq-section-inner {
+    gap: 4rem;
+  }
+}
+@media (max-width: 1199px) {
+  .accordion-wrapper {
+    width: 100%;
+    gap: 18px;
+  }
+  .faq-imageWrapper {
+    margin: 0 auto;
+  }
+}
+/* FAQ RESPONSIVE END */
