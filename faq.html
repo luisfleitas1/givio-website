@@ -5,13 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/tejash.css" />
     <title>FAQ | Givio</title>
   </head>
   <body>
-    <section class="section-xl-py faq-section">
+    <!-- HEADER STARTS -->
+    <header
+      class="header-section position-fixed w-100 top-0 d-flex justify-content-center align-items-center header-bg"
+    >
       <div class="container">
-        <div class="d-flex align-items-start faq-section-inner">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="index.html" class="logo-wrap w-100">
+            <img
+              src="./assets/images/logo/logo.svg"
+              alt="Givio"
+              class="w-100 h-100"
+            />
+          </a>
+          <nav>
+            <div class="header-overlay"></div>
+            <ul class="header-nav-list d-flex align-items-center">
+              <li>
+                <a href="index.html" class="header-link h5 mb-0 fw-medium"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="about-us.html" class="header-link h5 mb-0 fw-medium"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="faq.html" class="header-link h5 mb-0 fw-medium active">FAQ’s</a>
+              </li>
+              <li>
+                <a href="contact-us.html" class="header-link h5 mb-0 fw-medium"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="d-flex align-items-center gap-3 gap-sm-5">
+            <a href="" class="h5 mb-0 fw-bold text-white mob-btn"
+              ><span class="d-none d-lg-flex">Login</span
+              ><span data-icon="iconLogin" class="d-flex d-lg-none"></span
+            ></a>
+            <a href="" class="custom-btn white-gradient-btn text-white mob-btn"
+              ><span class="d-none d-lg-flex">Sign up</span
+              ><span data-icon="iconRegister" class="d-flex d-lg-none"> </span
+            ></a>
+            <div
+              class="hamburger d-block d-lg-none z-2 cursor-pointer"
+              id="hamburger"
+            >
+              <div class="hamburger-line"></div>
+              <div class="hamburger-line"></div>
+              <div class="hamburger-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER ENDS -->
+    <section class="section-xl-pb faq-section section-top-spacing">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row align-items-start faq-section-inner">
           <div
             class="faq-imageWrapper ratio overflow-hidden position-relative radius-xl"
           >
@@ -28,7 +85,7 @@
             <div class="accordion-item show">
               <h3 class="accordion-header">
                 <button
-                  class="h3 p-0 fw-bold d-flex justify-content-between align-items-center accordion-button text-black-shade mb-0"
+                  class="h3 fw-bold d-flex justify-content-between align-items-center accordion-button text-black-shade mb-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#itemOne"
@@ -48,7 +105,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <p
-                  class="big p-0 pt-3 mb-0 fw-medium accordion-body text-dull-lavender"
+                  class="big pt-4 pt-md-3 mb-0 fw-medium accordion-body text-dull-lavender"
                 >
                   Givio is a smart gifting platform that helps users find,
                   personalize, and send meaningful gifts effortlessly. Whether
@@ -61,7 +118,7 @@
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button
-                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 p-0 accordion-button text-black-shade mb-0"
+                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 accordion-button text-black-shade mb-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#itemTwo"
@@ -81,7 +138,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <p
-                  class="big p-0 pt-3 mb-0 fw-medium accordion-body text-dull-lavender"
+                  class="big pt-4 pt-md-3 mb-0 fw-medium accordion-body text-dull-lavender"
                 >
                   Givio is a smart gifting platform that helps users find,
                   personalize, and send meaningful gifts effortlessly. Whether
@@ -94,7 +151,7 @@
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button
-                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 p-0 accordion-button text-black-shade mb-0"
+                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 accordion-button text-black-shade mb-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#itemThree"
@@ -114,7 +171,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <p
-                  class="big p-0 pt-3 mb-0 fw-medium accordion-body text-dull-lavender"
+                  class="big pt-4 pt-md-3 mb-0 fw-medium accordion-body text-dull-lavender"
                 >
                   Givio is a smart gifting platform that helps users find,
                   personalize, and send meaningful gifts effortlessly. Whether
@@ -127,7 +184,7 @@
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button
-                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 p-0 accordion-button text-black-shade mb-0"
+                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 accordion-button text-black-shade mb-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#itemFour"
@@ -147,7 +204,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <p
-                  class="big p-0 pt-3 mb-0 fw-medium accordion-body text-dull-lavender"
+                  class="big pt-4 pt-md-3 mb-0 fw-medium accordion-body text-dull-lavender"
                 >
                   Givio is a smart gifting platform that helps users find,
                   personalize, and send meaningful gifts effortlessly. Whether
@@ -160,7 +217,7 @@
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button
-                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 p-0 accordion-button text-black-shade mb-0"
+                  class="collapsed fw-bold d-flex justify-content-between align-items-center h3 accordion-button text-black-shade mb-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#itemFive"
@@ -180,7 +237,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <p
-                  class="big p-0 pt-3 mb-0 fw-medium accordion-body text-dull-lavender"
+                  class="big pt-4 pt-md-3 mb-0 fw-medium accordion-body text-dull-lavender"
                 >
                   Givio is a smart gifting platform that helps users find,
                   personalize, and send meaningful gifts effortlessly. Whether
@@ -194,6 +251,155 @@
         </div>
       </div>
     </section>
+    <!-- FOOTER STARTS -->
+    <footer class="bg-black-shade">
+      <div class="container">
+        <div class="footer-content-info section-lg-py">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <a href="javascript:void(0)" class="footer-logo w-100 d-flex">
+                <img
+                  class="w-100"
+                  src="./assets/images/logo/logo.svg"
+                  alt="logo"
+                />
+              </a>
+              <p class="footer-text font-primary mt-4 mt-md-5 mb-0">
+                Givio helps you find the perfect gift for any occasion with
+                smart, personalized recommendations. Make gifting effortless and
+                meaningful!
+              </p>
+              <div class="d-flex align-items-center gap-4 mt-4 mt-md-5">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconFacebook"
+                  ></span
+                ></a>
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconGlobal"
+                  ></span
+                ></a>
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconX"
+                  ></span
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer-social-icon-wrapper flex-center"
+                  ><span
+                    class="footer-social-icon flex-center"
+                    data-icon="iconInstagram"
+                  ></span
+                ></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+              <div class="mt-5 mt-md-0">
+                <h4 class="text-white fw-bold mb-0">Company</h4>
+                <div class="mt-4 mt-md-5 d-flex flex-column gap-3 footer-link-wrapper">
+                  <a href="javascript:void(0)" class="fw-medium p big">Home</a>
+                  <a href="javascript:void(0)" class="fw-medium p big">About us</a>
+                  <a href="javascript:void(0)" class="fw-medium p big">FAQ</a>
+                  <a href="javascript:void(0)" class="fw-medium p big">Contact us</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-2">
+              <div class="mt-5 mt-md-0">
+                <h4 class="text-white fw-bold mb-0">Contact</h4>
+                <div class="mt-4 mt-md-5 d-flex flex-column gap-3 footer-link-wrapper">
+                  <a
+                    href="tel:+1 (800) 123-4567"
+                    class="d-flex align-center gap-4 fw-medium p big"
+                    ><span data-icon="iconCall"></span>+1 (800) 123-4567</a
+                  >
+                  <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    class="d-flex align-center gap-4 fw-medium p big"
+                    ><span data-icon="iconGlobal"></span>www.givio.com</a
+                  >
+                  <a
+                    href="mailto:givio@gmail.com"
+                    class="d-flex align-center gap-4 fw-medium p big"
+                    ><span data-icon="iconMail"></span>givio@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-4">
+              <div class="mt-5 mt-lg-0">
+                <h4 class="text-white fw-bold mb-0">
+                  Get the latest information
+                </h4>
+                <div class="mt-4 mt-md-5">
+                  <div
+                    class="dark-input input d-flex gap-3 align-items-center position-relative overflow-hidden"
+                  >
+                    <input
+                      type="text"
+                      name="input"
+                      placeholder="Email Adderss"
+                    />
+                    <button
+                      class="custom-btn purple-gradient-btn email-submit-btn position-absolute end-0"
+                    >
+                      <span data-icon="iconTelegram"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-content">
+        <div class="container">
+          <div class="copyright-content-info py-4">
+            <div class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap flex-md-nowrap gap-3">
+              <h6 class="footer-text mb-0 d-flex align-items-center gap-2">
+                2025 Givio. <span data-icon="iconCopyright"></span> All Rights
+                Reserved
+              </h6>
+              <div class="terms-and-conditions">
+                <ul class="d-flex align-items-center gap-2">
+                  <li class="terms-link position-relative p">
+                    <a
+                      href="javascript:void(0)"
+                      class="text-decoration-underline"
+                      >User Terms & Conditions</a
+                    >
+                  </li>
+                  <li class="terms-link position-relative p">
+                    <a
+                      href="javascript:void(0)"
+                      class="text-decoration-underline"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER ENDS -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/icons.js"></script>

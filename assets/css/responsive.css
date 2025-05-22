@@ -70,6 +70,9 @@
     .paragraph-sm-text {
       font-size: 14px;
     }
+    .about-wrapper {
+      gap: 40px;
+    }
   }
 
   @media (max-width: 1365px) {
@@ -83,11 +86,38 @@
   }
 
   @media(max-width:1279px){
-
+    .mini-robot {
+      width: 5rem;
+    }
+    .faq-section-inner {
+      gap: 4rem;
+    }
   }
 
   @media(max-width:1199px){
-
+    .hero-section {
+      min-height: auto;
+    }
+    .download-app-inner {
+      gap: 4rem;
+    }
+    .hero-apple-store-btn {
+      margin-top: 3rem;
+    }
+    .hero-content-wrap {
+      padding-bottom: 17rem;
+    }
+    .accordion-wrapper {
+      width: 100%;
+      gap: 18px;
+    }
+    .faq-imageWrapper {
+      margin: 0 auto;
+    }
+    .contact-form,
+    .contact-info-card {
+      width: 100%;
+    }
   }
 
   @media(max-width:1023px){
@@ -95,14 +125,127 @@
   }
 
   @media(max-width:991px){
-
+    :root{
+      --header-height:70px;
+    }
+    .secondary-title,.primary-title{
+      font-size: 30px;
+    }
+    .download-app-content {
+      width: 100%;
+    }
+    .hero-content-wrap {
+      padding-bottom: 0;
+    }
+    .hero-img-wrap {
+      max-width: 400px;
+    }
+    .header-nav-list {
+      position: fixed;
+      height: 100%;
+      max-width: 400px;
+      width: 100%;
+      top: 0;
+      background: rgba(0, 0, 0, 0.774);
+      border-radius: 0;
+      flex-direction: column;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+      right: -400px;
+      z-index: 1;
+      gap: 20px;
+    }
+    .menu-open .header-nav-list {
+      right: 0;
+    }
+  
+    .mob-btn {
+      padding: 10px;
+      border: solid 1px var(--clr-white);
+      border-radius: var(--radius-sm);
+      height: auto;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 16px 0px rgba(var(--clr-rgb-white), 40%) inset,
+        -2px -2px 8px 0px rgba(var(--clr-rgb-white), 25%) inset;
+      font-size: 16px;
+      min-width: 50px;
+    }
+    .mob-btn:hover {
+      box-shadow: 9px 1px 28px -4px rgba(var(--clr-rgb-white), 40%) inset,
+        2px 2px 18px 23px rgba(var(--clr-rgb-white), 25%) inset;
+    }
+    .mob-btn:focus {
+      border-color: var(--clr-black-shade);
+    }
+    .mob-btn.white-gradient-btn{
+      backdrop-filter: unset;
+    }
+    .why-choose-us-card-grid-wrapper{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .about-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .about-wrapper {
+      gap: 20px;
+    }
+    :root {
+      --input-height: 50px;
+    }
+    input,
+    textarea.textarea {
+      font-size: 16px;
+    }
+    .light-input {
+      padding: 0 10px;
+    }
   }
 
   @media(max-width:767px){
-    
+    .hero-apple-store-btn {
+      max-width: 150px;
+    }
+    .accordion-wrapper .h3{
+      font-size: 18px;
+    }
+    .accordion-wrapper .p.big{
+      font-size: 16px;
+    }
   }
 
-  @media(max-width:575px){}
+  @media(max-width:575px){
+    .mob-btn{
+      min-height: 40px;
+      min-width: 40px;
+    }
+    .logo-wrap{
+      max-width: 80px;
+    }
+    .how-it-work-content-card{
+      padding: 0;
+    }
+    .why-choose-us-card-grid-wrapper{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .contact-wrapper,
+  .contact-info-card {
+    padding: 10px;
+  }
+  .contact-info-card {
+    border-radius: 20px;
+  }
+  .contact-form-wrapper {
+    gap: 13px;
+  }
+  .contact-form-wrapper button.custom-btn {
+    min-width: 200px;
+  }
+  }
 
-  @media(max-width:480px){}
+  @media(max-width:480px){
+    
+  }
   /* RESPONSIVE ENDS */
