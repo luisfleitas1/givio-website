@@ -5,7 +5,7 @@
 }
 .why-choose-us-detail-card{
     background-color: var(--clr-titan-white);
-    padding: var(--space-lg);
+    padding: var(--space-md);
 }
 /* WHY CHOOSE US ENDS */
 /* FEEDBACK STARTS */
@@ -29,7 +29,7 @@
     height: var(--icon-sizing);
 }
 .swiper-nav-button{
-    --circle-sizing:8rem;
+    --circle-sizing:6rem;
     width: var(--circle-sizing);
     height: var(--circle-sizing);
     border: solid 1px var(--clr-white);
@@ -37,6 +37,8 @@
     color: var(--clr-white);
     transition: var(--transition-smooth);
     outline: none;
+    min-width: 30px;
+    min-height: 30px;
 }
 
 .swiper-nav-button.swiper-button-disabled,.swiper-nav-button.swiper-button-disabled:hover{

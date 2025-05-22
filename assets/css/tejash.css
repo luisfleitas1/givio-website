@@ -22,8 +22,8 @@
   gap: 24px;
 }
 .accordion-wrapper .accordion-item {
-  padding: 32px;
-  border-radius: var(--radius-lg);
+  padding: 28px;
+  border-radius: var(--radius-md);
   border: 1.5px solid #ebebeb;
 }
 .accordion-wrapper .accordion-item.show {

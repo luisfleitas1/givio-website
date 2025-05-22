@@ -28,12 +28,12 @@
   );
   --clr-mirage: #1a1a1a80;
   /* SPACE */
-  --space-xl: 6.4rem;
-  --space-lg: 5.6rem;
+  --space-xl: 6rem;
+  --space-lg: 5rem;
   --space-md: 3.2rem;
   --space-sm: 3rem;
   /* RADIUS */
-  --radius-xl: 6.4rem;
+  --radius-xl: 5rem;
   --radius-lg: 3.2rem;
   --radius-md: 2.4rem;
   --radius-sm: 1.6rem;
