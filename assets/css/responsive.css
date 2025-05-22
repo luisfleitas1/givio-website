@@ -9,10 +9,6 @@
     :root {
       --container-size: 720px;
     }
-  
-    .contact-form-card {
-      padding-right: 8rem;
-    }
   }
   
   @media (min-width: 992px) {
@@ -80,6 +76,9 @@
     :root {
       font-size: 7px;
       --header-height: 90px;
+    }
+    h3,.h3{
+      font-size: 20px;
     }
   }
 

@@ -153,7 +153,8 @@
 }
 
 .how-it-work-img {
-  max-width: 430px;
+  max-width: 43rem;
+  margin: auto;
 }
 
 .how-it-work-content-card {
@@ -196,3 +197,9 @@
   bottom: 0;
 }
 /* DOWNLOAD-APP SECTION END */
+
+@media(max-width:575px){
+  .how-it-work-content-card{
+    padding: 0;
+  }
+}

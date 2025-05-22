@@ -1,7 +1,7 @@
 /* WHY CHOOSE US STARTS */
 .why-choose-us-card-grid-wrapper{
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+    grid-gap: 3rem;
 }
 .why-choose-us-detail-card{
     background-color: var(--clr-titan-white);
@@ -12,8 +12,8 @@
 .feedback-card{
     padding: 4.5rem;
     box-shadow: 0px 4px 16px 0px rgba(var(--clr-rgb-black),4%);
-    min-height: 446px;
 }
+
 .feddback-img{
     width: 8rem;
     min-width: 50px;
@@ -150,10 +150,23 @@
 }
 
 .email-submit-btn{
-    --btn-sizing:5.6rem;
-    width: var(--btn-sizing);
-    height: var(--btn-sizing);
+    width: var(--input-height);
+    height: var(--input-height);
     min-width: auto;
     border-radius: 0;
 }
 /* FOOTER ENDS */
+
+@media(max-width:991px){
+    .why-choose-us-card-grid-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:575px){
+    .why-choose-us-card-grid-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
