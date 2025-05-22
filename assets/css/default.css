@@ -903,9 +903,14 @@ textarea.textarea {
 }
 /* WHY CHOOSE US ENDS */
 /* FEEDBACK STARTS */
+.feedbackSwiper .swiper-slide{
+  height: auto;
+}
+
 .feedback-card{
   padding: 4.5rem;
   box-shadow: 0px 4px 16px 0px rgba(var(--clr-rgb-black),4%);
+  height: 100%;
 }
 
 .feddback-img{
