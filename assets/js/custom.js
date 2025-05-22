@@ -36,3 +36,36 @@ if (header) {
   window.addEventListener("scroll", handleScroll)
   window.addEventListener("load", handleScroll)
 }
+
+// HEADER
+const hamburger = document.getElementById("hamburger");
+const body = document.body;
+const headerOverlay = document.querySelector('.header-overlay')
+const navlinks = document.querySelectorAll(".header-nav-list");
+
+hamburger.addEventListener("click", () => {
+  body.classList.toggle("menu-open");
+  hamburger.classList.toggle("active");
+  headerOverlay.classList.toggle("overlayShow")
+  console.log(navlinks);
+});
+
+headerOverlay.addEventListener("click",()=>{
+  headerOverlay.classList.remove("overlayShow")
+  body.classList.remove("menu-open")
+  hamburger.classList.remove("active")
+})
+
+navlinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navlinks.forEach((nav) => {
+      nav.classList.remove("active");
+    });
+    
+    headerOverlay.classList.remove("overlayShow")
+    hamburger.classList.toggle("active");
+    body.classList.toggle("menu-open");
+    link.classList.add("active");
+    
+  });
+});
