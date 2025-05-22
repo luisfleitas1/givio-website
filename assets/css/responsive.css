@@ -249,6 +249,9 @@
 }
 
 @media(max-width:575px) {
+  textarea.textarea{
+    border-radius: 10px;
+  }
   .mob-btn {
     min-height: 40px;
     min-width: 40px;
@@ -262,13 +265,14 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .contact-wrapper,
-  .contact-info-card {
+  .contact-wrapper{
     padding: 10px;
-  }
-
-  .contact-info-card {
     border-radius: 20px;
+  }
+  
+  .contact-info-card{
+    border-radius: 10px;
+    padding: 20px;
   }
 
   .contact-form-wrapper {
