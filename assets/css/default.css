@@ -38,12 +38,12 @@ html {
 .text-black-shade {
   color: var(--clr-black-shade);
 }
-.text-dull-lavender{
-    color: var(--clr-dull-lavender);
+.text-dull-lavender {
+  color: var(--clr-dull-lavender);
 }
 
 .text-light-purple {
-    color: var(--clr-light-purple);
+  color: var(--clr-light-purple);
 }
 
 .text-primary-gradient {
@@ -57,22 +57,22 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-.text-white-50{
+.text-white-50 {
   color: rgba(var(--clr-rgb-white), 50%);
 }
 
-.text-black-shade-50{
+.text-black-shade-50 {
   color: rgba(var(--clr--rgb-black-shade), 50%);
 }
 
-.text-black-shade-70{
+.text-black-shade-70 {
   color: rgba(var(--clr--rgb-black-shade), 70%);
 }
 
-.text-dull-lavender{
+.text-dull-lavender {
   color: var(--clr-dull-lavender);
 }
-  
+
 /* TEXT COLORS END */
 
 .text-justify {
@@ -389,6 +389,10 @@ a:hover,
   padding-top: var(--space-lg);
   padding-bottom: var(--space-lg);
 }
+.section-lg-px {
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+}
 
 .section-lg-pt {
   padding-top: var(--space-lg);
@@ -415,6 +419,10 @@ a:hover,
 .section-md-py {
   padding-top: var(--space-md);
   padding-bottom: var(--space-md);
+}
+.section-md-px {
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
 }
 
 .section-md-pt {
@@ -515,7 +523,7 @@ input[type="number"] {
 }
 
 .logo-wrap {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 /* INPUT CSS  */
@@ -576,6 +584,13 @@ input[type="number"] {
 .transparent-input:focus-within {
   box-shadow: 0px 0px 50px 40px rgba(255, 255, 255, 0.1) inset;
 }
+textarea.textarea {
+  padding: 20px;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 20px;
+  resize: none;
+}
 .temp {
   padding: 50px;
   background: #8459ef;
@@ -633,3 +648,15 @@ input[type="number"] {
   backdrop-filter: blur(40px);
 }
 /* CARD STYLING END */
+@media screen and (max-width: 992px) {
+  :root {
+    --input-height: 50px;
+  }
+  input,
+  textarea.textarea {
+    font-size: 16px;
+  }
+  .light-input {
+    padding: 0 10px;
+  }
+}
