@@ -18,10 +18,11 @@ collapseEl.forEach((item) => {
 var swiper = new Swiper(".feedbackSwiper", {
     slidesPerView: 2,
     spaceBetween: 30,
+    speed: 1000,
     loop:true,
     navigation: {
-        nextEl: '.prev-button',
-        prevEl: '.next-button',
+        prevEl: '.prev-button',
+        nextEl: '.next-button',
       },
 });
 

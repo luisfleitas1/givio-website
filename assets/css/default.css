@@ -636,7 +636,7 @@ input[type="number"] {
   background-color: var(--clr-black-shade);
 }
 .dark-btn:hover {
-  background-color: rgba(var(--clr--rgb-black-shade), 0.8);
+  background-color: rgba(var(--clr-rgb-black-shade), 0.8);
 }
 .custom-btn:focus {
   border-color: var(--clr-black-shade);
