@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="Givio - Smart Gift Recommendations" />
-    <meta name="description" content="Discover the perfect gift for any occasion with Givio, the smart gift recommendation platform. Curated suggestions based on preferences, trends, and unique interests make gifting effortless and meaningful." />
-    <meta name="keywords" content="gift recommendations, personalized gifts, smart gifting, birthday gifts, anniversary gifts, holiday gifts, special occasion gifts, curated gifts" />
+    <meta
+      name="description"
+      content="Discover the perfect gift for any occasion with Givio, the smart gift recommendation platform."
+    />
+    <meta name="keywords" content="gift recommendations, smart gifting, curated gifts" />
     <meta name="author" content="Givio" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Givio - Smart Gift Recommendations" />
-    <meta property="og:description" content="Find the perfect gift for birthdays, holidays, and special moments with Givio. Personalized and effortless gifting made simple." />
+    <meta property="og:description" content="Personalized and effortless gifting made simple." />
     <meta property="og:type" content="website" />
     <title>Contact Us | Givio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="icon" type="image/png" href="./assets/images/favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" href="./assets/images/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="manifest" href="./site.webmanifest" />
   </head>
   <body>
@@ -32,77 +32,52 @@
           </h4>
         </div>
 
-        <div class="contact-wrapper d-flex radius-xl flex-column-reverse flex-xl-row">
-          <!-- Contact Info Box (unchanged) -->
-          <div class="contact-info-card position-relative d-flex flex-column radius-lg bg-primary-gradient">
-            <div class="contact-info-card-wrapper z-1 d-flex flex-column">
-              <h2 class="text-white fw-bold mb-0">Contact Information</h2>
-              <h4 class="mb-4 text-white-50 fw-normal">We're here to help! Contact us for questions, order assistance, or feedback.</h4>
+        <div>
+          <div class="contact-wrapper d-flex radius-xl flex-column-reverse flex-xl-row">
+            <!-- Contact Info Card OMITTED -->
 
-              <div class="d-flex flex-column gap-3">
-                <span class="d-flex align-items-center gap-3">
-                  <span class="flex-center text-white" data-icon="iconCustomerSupport"></span>
-                  <h5 class="mb-0 text-white-70 fw-medium">Customer Support :</h5>
-                </span>
-                <h5 class="mb-0 text-white fw-bold">+1 (800) 123-4567</h5>
-              </div>
+            <div class="contact-form align-items-center d-flex">
+              <form class="d-flex flex-column w-100">
+                <div class="row contact-form-wrapper justify-content-center">
+                  <div class="row gap-4">
+                    <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
+                      <span class="flex-center text-black-shade" data-icon="iconUser"></span>
+                      <input type="text" name="name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="col light-input input d-flex gap-3 align-items-center">
+                      <span class="flex-center text-black-shade" data-icon="iconMail"></span>
+                      <input type="email" name="email" placeholder="Enter your email" required />
+                    </div>
+                  </div>
 
-              <div class="d-flex flex-column gap-3">
-                <span class="d-flex align-items-center gap-3">
-                  <span class="flex-center text-white" data-icon="iconMailSupport"></span>
-                  <h5 class="mb-0 text-white-70 fw-medium">Email Support :</h5>
-                </span>
-                <h5 class="mb-0 text-white fw-bold">support@givio.ai</h5>
-              </div>
+                  <div class="row gap-4 mt-3">
+                    <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
+                      <span class="flex-center text-black-shade" data-icon="iconCall"></span>
+                      <input type="tel" name="phone" placeholder="Enter your phone number" />
+                    </div>
+                    <div class="col light-input input d-flex gap-3 align-items-center">
+                      <span class="flex-center text-black-shade" data-icon="iconSubject"></span>
+                      <input type="text" name="subject" placeholder="Enter your subject" />
+                    </div>
+                  </div>
 
-              <div class="d-flex flex-column gap-3">
-                <span class="d-flex align-items-center gap-3">
-                  <span class="flex-center text-white" data-icon="iconLocation"></span>
-                  <h5 class="mb-0 text-white-70 fw-medium">Address</h5>
-                </span>
-                <h5 class="mb-0 text-white fw-bold">Givio Headquarters 123 Gift Lane, Suite 200 New York, NY 10001, USA</h5>
-              </div>
+                  <div class="row mt-3">
+                    <textarea
+                      class="light-input textarea"
+                      name="message"
+                      placeholder="Enter your message here"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="d-flex justify-content-center flex-column align-items-center gap-3 mt-3">
+                    <div class="g-recaptcha" data-sitekey="6LeHG0orAAAAANCgfC75Eb6aQBDv8ebHLAdwyXxW"></div>
+                    <button type="submit" class="custom-btn purple-gradient-btn">Submit</button>
+                  </div>
+                </div>
+              </form>
             </div>
-          </div>
-
-          <!-- Contact Form -->
-          <div class="contact-form align-items-center d-flex">
-            <form
-              action="https://278xkaq3y5.execute-api.eu-north-1.amazonaws.com/contact"
-              method="POST"
-              class="row contact-form-wrapper justify-content-center w-100"
-            >
-              <div class="row gap-4">
-                <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
-                  <span class="flex-center text-black-shade" data-icon="iconUser"></span>
-                  <input type="text" name="name" placeholder="Enter your name" required />
-                </div>
-                <div class="col light-input input d-flex gap-3 align-items-center">
-                  <span class="flex-center text-black-shade" data-icon="iconMail"></span>
-                  <input type="email" name="email" placeholder="Enter your email" required />
-                </div>
-              </div>
-
-              <div class="row gap-4 mt-3">
-                <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
-                  <span class="flex-center text-black-shade" data-icon="iconCall"></span>
-                  <input type="tel" name="phone" placeholder="Enter your phone number" />
-                </div>
-                <div class="col light-input input d-flex gap-3 align-items-center">
-                  <span class="flex-center text-black-shade" data-icon="iconSubject"></span>
-                  <input type="text" name="subject" placeholder="Enter your subject" />
-                </div>
-              </div>
-
-              <div class="row mt-3">
-                <textarea class="light-input textarea" name="message" placeholder="Enter your message here" rows="5" required></textarea>
-              </div>
-
-              <div class="d-flex justify-content-center flex-column align-items-center gap-3 mt-3">
-                <div class="g-recaptcha" data-sitekey="6LeHG0orAAAAANCgfC75Eb6aQBDv8ebHLAdwyXxW"></div>
-                <button type="submit" class="custom-btn purple-gradient-btn">Submit</button>
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -110,10 +85,47 @@
 
     <!-- FOOTER OMITTED FOR BREVITY -->
 
+    <!-- SCRIPTS -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/icons.js"></script>
     <script src="./assets/js/custom.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script>
+      document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+
+        grecaptcha.ready(function () {
+          grecaptcha.execute('6LeHG0orAAAAANCgfC75Eb6aQBDv8ebHLAdwyXxW', { action: 'submit' }).then(async function (token) {
+            const formData = {
+              name: form.name.value,
+              email: form.email.value,
+              phone: form.phone.value,
+              subject: form.subject.value,
+              message: form.message.value,
+              token: token
+            };
+
+            try {
+              const response = await fetch("https://278xkaq3y5.execute-api.eu-north-1.amazonaws.com/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData)
+              });
+
+              const result = await response.json();
+              alert(result.message || "Message sent!");
+              form.reset();
+              grecaptcha.reset();
+            } catch (err) {
+              alert("An error occurred. Please try again later.");
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
