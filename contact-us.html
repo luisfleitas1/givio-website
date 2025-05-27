@@ -1,162 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us | Givio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Givio - Smart Gift Recommendations" />
+    <meta
+      name="description"
+      content="Discover the perfect gift for any occasion with Givio, the smart gift recommendation platform. Curated suggestions based on preferences, trends, and unique interests make gifting effortless and meaningful."
+    />
+    <meta
+      name="keywords"
+      content="gift recommendations, personalized gifts, smart gifting, birthday gifts, anniversary gifts, holiday gifts, special occasion gifts, curated gifts"
+    />
+    <meta name="author" content="Givio" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Givio - Smart Gift Recommendations" />
+    <meta
+      property="og:description"
+      content="Find the perfect gift for birthdays, holidays, and special moments with Givio. Personalized and effortless gifting made simple."
+    />
+    <meta property="og:type" content="website" />
+    <title>Contact Us | Givio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <body>
+    <!-- HEADER OMITTED FOR BREVITY -->
 
-  <meta name="title" content="Givio - Smart Gift Recommendations" />
-  <meta name="description" content="Discover the perfect gift for any occasion with Givio, the smart gift recommendation platform. Curated suggestions based on preferences, trends, and unique interests make gifting effortless and meaningful." />
-  <meta name="keywords" content="gift recommendations, personalized gifts, smart gifting, birthday gifts, anniversary gifts, holiday gifts, special occasion gifts, curated gifts" />
-  <meta name="author" content="Givio" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Givio - Smart Gift Recommendations" />
-  <meta property="og:description" content="Find the perfect gift for birthdays, holidays, and special moments with Givio. Personalized and effortless gifting made simple." />
-  <meta property="og:type" content="website" />
+    <!-- HERO SECTION  -->
+    <section class="contace-section section-lg-pb section-top-spacing">
+      <div class="container">
+        <div
+          class="text-start d-flex flex-column gap-4 section-md-mb align-items-center justify-content-center"
+        >
+          <h1 class="primary-title text-start mb-0 text-primary-gradient">
+            Get In Touch
+          </h1>
+          <h4 class="title-sub-text mb-0 text-center">
+            We’re here to help! Whether you have questions, need assistance with
+            your order, or just want to share feedback, feel free to reach out
+            to us.
+          </h4>
+        </div>
 
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="icon" type="image/png" href="./assets/images/favicon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
-  <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
-  <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" />
-  <link rel="manifest" href="./site.webmanifest" />
-</head>
-<body>
+        <div>
+          <div
+            class="contact-wrapper d-flex radius-xl flex-column-reverse flex-xl-row"
+          >
+            <div
+              class="contact-info-card position-relative d-flex flex-column radius-lg bg-primary-gradient"
+            >
+              <div class="contact-info-card-wrapper z-1 d-flex flex-column">
+                <h2 class="text-white fw-bold mb-2">Contact Information</h2>
+                <h4 class="mb-3 text-white-50 fw-normal">
+                  We're here to help! Contact us for questions, order
+                  assistance, or feedback.
+                </h4>
+                <div class="text-white-70 fw-medium">Customer Support:</div>
+                <h5 class="text-white fw-bold mb-3">+1 (800) 123-4567</h5>
+                <div class="text-white-70 fw-medium">Email Support:</div>
+                <h5 class="text-white fw-bold mb-3">support@givio.ai</h5>
+                <div class="text-white-70 fw-medium">Address:</div>
+                <h5 class="text-white fw-bold">
+                  Givio HQ, 123 Gift Lane, Suite 200, NY 10001
+                </h5>
+              </div>
+            </div>
 
-<!-- HEADER OMITTED FOR BREVITY -->
+            <div class="contact-form align-items-center d-flex">
+              <form
+                id="contactForm"
+                class="d-flex flex-column w-100"
+                onsubmit="return submitForm(event)"
+              >
+                <div class="row contact-form-wrapper justify-content-center">
+                  <div class="row gap-4">
+                    <div
+                      class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center"
+                    >
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                      />
+                    </div>
+                    <div
+                      class="col light-input input d-flex gap-3 align-items-center"
+                    >
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+                  </div>
 
-<section class="contace-section section-lg-pb section-top-spacing">
-  <div class="container">
-    <div class="text-start d-flex flex-column gap-4 section-md-mb align-items-center justify-content-center">
-      <h1 class="primary-title text-start mb-0 text-primary-gradient">Get In Touch</h1>
-      <h4 class="title-sub-text mb-0 text-center">
-        We’re here to help! Whether you have questions, need assistance with your order, or just want to share feedback, feel free to reach out to us.
-      </h4>
-    </div>
+                  <div class="row gap-4 mt-3">
+                    <div
+                      class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center"
+                    >
+                      <input
+                        type="text"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                      />
+                    </div>
+                    <div
+                      class="col light-input input d-flex gap-3 align-items-center"
+                    >
+                      <input
+                        type="text"
+                        name="subject"
+                        placeholder="Enter your subject"
+                      />
+                    </div>
+                  </div>
 
-    <div class="contact-wrapper d-flex radius-xl flex-column-reverse flex-xl-row">
-      <!-- Contact Info -->
-      <div class="contact-info-card position-relative d-flex flex-column radius-lg bg-primary-gradient">
-        <div class="contact-info-card-wrapper z-1 d-flex flex-column">
-          <div class="d-flex flex-column gap-3">
-            <h2 class="text-white fw-bold mb-0">Contact Information</h2>
-            <h4 class="mb-0 text-white-50 fw-normal">
-              We're here to help! Contact us for questions, order assistance, or feedback.
-            </h4>
-          </div>
-          <div class="d-flex flex-column gap-3">
-            <span class="d-flex align-items-center gap-3">
-              <span class="flex-center text-white" data-icon="iconCustomerSupport"></span>
-              <h5 class="mb-0 text-white-70 fw-medium">Customer Support:</h5>
-            </span>
-            <h5 class="mb-0 text-white fw-bold">+1 (800) 123-4567</h5>
-          </div>
-          <div class="d-flex flex-column gap-3">
-            <span class="d-flex align-items-center gap-3">
-              <span class="flex-center text-white" data-icon="iconMailSupport"></span>
-              <h5 class="mb-0 text-white-70 fw-medium">Email Support:</h5>
-            </span>
-            <h5 class="mb-0 text-white fw-bold">support@givio.ai</h5>
-          </div>
-          <div class="d-flex flex-column gap-3">
-            <span class="d-flex align-items-center gap-3">
-              <span class="flex-center text-white" data-icon="iconLocation"></span>
-              <h5 class="mb-0 text-white-70 fw-medium">Address</h5>
-            </span>
-            <h5 class="mb-0 text-white fw-bold">Givio Headquarters, 123 Gift Lane, Suite 200, New York, NY 10001, USA</h5>
+                  <div class="row mt-3">
+                    <textarea
+                      class="light-input textarea"
+                      name="message"
+                      placeholder="Enter your message here"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div
+                    class="d-flex justify-content-center flex-column align-items-center gap-3 mt-3"
+                  >
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6LeHG0orAAAAANCgfC75Eb6aQBDv8ebHLAdwyXxW"
+                    ></div>
+                    <button
+                      type="submit"
+                      class="custom-btn purple-gradient-btn"
+                    >
+                      Submit
+                    </button>
+                    <p id="formStatus" style="margin-top: 1rem;"></p>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Contact Form -->
-      <div class="contact-form align-items-center d-flex">
-        <div class="d-flex flex-column w-100">
-          <div class="row contact-form-wrapper justify-content-center">
-            <div class="row gap-4">
-              <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
-                <span class="flex-center text-black-shade" data-icon="iconUser"></span>
-                <input type="text" id="name" placeholder="Enter your name" required />
-              </div>
-              <div class="col light-input input d-flex gap-3 align-items-center">
-                <span class="flex-center text-black-shade" data-icon="iconMail"></span>
-                <input type="email" id="email" placeholder="Enter your email" required />
-              </div>
-            </div>
+    <!-- FOOTER OMITTED FOR BREVITY -->
 
-            <div class="row gap-4 mt-3">
-              <div class="col-12 col-sm-6 light-input input d-flex gap-3 align-items-center">
-                <span class="flex-center text-black-shade" data-icon="iconCall"></span>
-                <input type="text" id="phone" placeholder="Enter your phone number" />
-              </div>
-              <div class="col light-input input d-flex gap-3 align-items-center">
-                <span class="flex-center text-black-shade" data-icon="iconSubject"></span>
-                <input type="text" id="subject" placeholder="Enter your subject" />
-              </div>
-            </div>
+    <!-- SCRIPTS -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/icons.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-            <div class="row mt-3">
-              <textarea class="light-input textarea" id="message" placeholder="Enter your message here" rows="5" required></textarea>
-            </div>
+    <script>
+      async function submitForm(event) {
+        event.preventDefault();
+        const form = document.getElementById('contactForm');
+        const status = document.getElementById('formStatus');
+        const formData = new FormData(form);
 
-            <div class="d-flex justify-content-center flex-column align-items-center gap-3 mt-3">
-              <div id="recaptcha-container" class="g-recaptcha"
-                data-sitekey="6LeHG0orAAAAANCgfC75Eb6aQBDv8ebHLAdwyXxW"
-                data-callback="onSubmit"
-                data-size="invisible"></div>
+        const token = grecaptcha.getResponse();
+        if (!token) {
+          status.innerText = 'Please complete the reCAPTCHA.';
+          return;
+        }
 
-              <button class="custom-btn purple-gradient-btn" onclick="submitForm()">Submit</button>
-              <div id="response-message" style="margin-top: 10px;"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        const data = {
+          name: formData.get('name'),
+          email: formData.get('email'),
+          phone: formData.get('phone'),
+          subject: formData.get('subject'),
+          message: formData.get('message'),
+          token: token,
+        };
 
-<!-- FOOTER OMITTED FOR BREVITY -->
+        try {
+          const res = await fetch(
+            'https://278xkaq3y5.execute-api.eu-north-1.amazonaws.com/contact',
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(data),
+            }
+          );
 
-<!-- Scripts -->
-<script src="./assets/js/swiper-bundle.min.js"></script>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/js/icons.js"></script>
-<script src="./assets/js/custom.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-  function submitForm() {
-    grecaptcha.execute();
-  }
-
-  async function onSubmit(token) {
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const phone = document.getElementById('phone').value.trim();
-    const subject = document.getElementById('subject').value.trim();
-    const message = document.getElementById('message').value.trim();
-    const responseDiv = document.getElementById('response-message');
-    responseDiv.innerText = '';
-
-    try {
-      const res = await fetch('https://278xkaq3y5.execute-api.eu-north-1.amazonaws.com/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, phone, subject, message, token })
-      });
-
-      const data = await res.json();
-      if (res.ok) {
-        responseDiv.style.color = 'green';
-        responseDiv.innerText = '✅ Message sent successfully!';
-      } else {
-        responseDiv.style.color = 'red';
-        responseDiv.innerText = '❌ ' + (data.message || 'Submission failed.');
+          const result = await res.json();
+          status.innerText = result.message || 'Message sent!';
+          if (res.ok) {
+            form.reset();
+            grecaptcha.reset();
+          }
+        } catch (err) {
+          console.error(err);
+          status.innerText = 'Something went wrong. Try again.';
+        }
       }
-    } catch (err) {
-      responseDiv.style.color = 'red';
-      responseDiv.innerText = '❌ Failed to send. Please try again later.';
-    }
-  }
-</script>
-</body>
+    </script>
+  </body>
 </html>
